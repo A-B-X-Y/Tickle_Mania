@@ -1,0 +1,111 @@
+.contse{
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(155, 9, 9, 0.918);
+    margin: auto;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.containerse{
+    width: 275px;
+}
+.containerse form{
+
+    width: 90%;
+    border: 2px solid #c0392b;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+
+}
+.containerse form input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 5px;
+    
+
+}
+.containerse form i{
+    padding-left: 10px;
+}
+.menuinse{
+    display: block;
+    list-style-type: none;
+    margin-left: 10px;
+    
+}
+.submenuse {
+    display: none;
+}
+
+
+.nav-menu li:hover > .submenuse{
+    display: block;
+    position: absolute;
+    background:black;
+    border: 1px solid #fff;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+
+}
+.nav-menu li:hover > .submenuse::-webkit-scrollbar{
+    width: 1vw;
+}
+.nav-menu li:hover > .submenuse::-webkit-scrollbar-thumb{
+    background-color: #7775;
+}
+.nav-menu li:hover > .submenuse::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+
+
+
+.semovie-item{
+    display: flex;
+    align-items: center;
+
+}
+.semovie-item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.menuin{
+    list-style: none;
+    display: block;
+    table-layout: auto;
+}
+.submenu {
+    display: none;
+
+}
+
+
+.nav-menu li:hover > .submenu{
+    display: block;
+    position: absolute;
+    background-color:#000000;
+    
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1rem;
+    min-width: 300px;
+    font-weight: 500;
+}

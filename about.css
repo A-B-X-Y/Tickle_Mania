@@ -1,0 +1,12 @@
+.aboutback{
+    background-color: black;
+    display: inline-block;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem,.5rem,1rem,1rem;
+}
+.about{
+    font-size: large;
+    margin-left: 1rem;
+
+}

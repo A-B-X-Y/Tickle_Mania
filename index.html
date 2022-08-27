@@ -1,222 +1,531 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Tickle Mania
-    </title>
-     <!--Favico-->
-     <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (1)/apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (1)/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (1)/favicon-16x16.png">
-     <link rel="manifest" href="./favicon_io (1)/site.webmanifest">
-     <meta name="description" content="Watch your favourite movies for free.Watch all HD movies.Watch Marvel movies for free">
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-    <!--Head-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- OWL CAROUSEL -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-    <!-- BOX ICONS -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" >
-    <!-- APP CSS -->
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="search.css">
-    <script type="text/javascript" src="include.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Tickle Mania
+        </title>
+         <!--Favico-->
+         <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (1)/apple-touch-icon.png">
+         <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (1)/favicon-32x32.png">
+         <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (1)/favicon-16x16.png">
+         <link rel="manifest" href="./favicon_io (1)/site.webmanifest">
+         <meta name="description" content="Watch your favourite movies for free.Watch all HD movies.Watch Marvel movies for free">
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+        <!--Head-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <!-- BOX ICONS -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" >
+        <!-- APP CSS -->
+        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="search.css">
+        <script type="text/javascript" src="include.js"></script>
+    </head>
 
 <body>
 
-    
     <div w3-include-html="nav.html"></div> 
 
     <!-- HERO SECTION -->
     <div class="hero-section">
-        <!-- HERO SLIDE -->
-        <div class="hero-slide">
-            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
-                <!-- SLIDE ITEM -->
-                <div class="hero-slide-item">
-                    <img src="./images/movies/Thorloveandthunder.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="hero-slide-item-content">
-                        <div class="item-content-wraper">
-                            <div class="item-content-title top-down">
-                               Thor Love And Thunder
-                            </div>
-                            <div class="movie-infos top-down delay-2">
-                                <div class="movie-info">
-                                    <i class="bx bxs-star"></i>
-                                    <span>9.5</span>
+                <!-- HERO SLIDE -->
+                <div class="hero-slide">
+                    <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                        <!-- SLIDE ITEM -->
+                        <div class="hero-slide-item">
+                            <img src="./images/movies/Thorloveandthunder.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="hero-slide-item-content">
+                                <div class="item-content-wraper">
+                                    <div class="item-content-title top-down">
+                                       Thor Love And Thunder
+                                    </div>
+                                    <div class="movie-infos top-down delay-2">
+                                        <div class="movie-info">
+                                            <i class="bx bxs-star"></i>
+                                            <span>9.5</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <i class="bx bxs-time"></i>
+                                            <span>120 mins</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <span>HD</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="item-content-description top-down delay-4">
+                                        After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.
+                                    </div>
+                                    <div class="item-action top-down delay-6">
+                                        <a href="thorlove&thunder.html" class="btn btn-hover">
+                                            <i class="bx bxs-right-arrow"></i>
+                                            <span>Watch now</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="movie-info">
-                                    <i class="bx bxs-time"></i>
-                                    <span>120 mins</span>
-                                </div>
-                                <div class="movie-info">
-                                    <span>HD</span>
-                                </div>
-                                <div class="movie-info">
-                                    
+                            </div>
+                        </div>
+                        <!-- END SLIDE ITEM -->
+                        <!-- SLIDE ITEM -->
+                        <div class="hero-slide-item">
+                            <img src="./images/movies/black widow.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="hero-slide-item-content">
+                                <div class="item-content-wraper">
+                                    <div class="item-content-title top-down">
+                                        Black Widow
+                                    </div>
+                                    <div class="movie-infos top-down delay-2">
+                                        <div class="movie-info">
+                                            <i class="bx bxs-star"></i>
+                                            <span>9.5</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <i class="bx bxs-time"></i>
+                                            <span>120 mins</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <span>HD</span>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="item-content-description top-down delay-4">
+                                        Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
+                                    </div>
+                                    <div class="item-action top-down delay-6">
+                                        <a href="blackwidow.html" class="btn btn-hover">
+                                            <i class="bx bxs-right-arrow"></i>
+                                            <span>Watch now</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="item-content-description top-down delay-4">
-                                After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.
+                        </div>
+                        <!-- END SLIDE ITEM -->
+                        <!-- SLIDE ITEM -->
+                        <div class="hero-slide-item">
+                            <img src="./images/movies/spiderman noway home.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="hero-slide-item-content">
+                                <div class="item-content-wraper">
+                                    <div class="item-content-title top-down">
+                                        Spiderman: No Way Home
+                                    </div>
+                                    <div class="movie-infos top-down delay-2">
+                                        <div class="movie-info">
+                                            <i class="bx bxs-star"></i>
+                                            <span>9.5</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <i class="bx bxs-time"></i>
+                                            <span>120 mins</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <span>HD</span>
+                                        </div>
+                                        <div class="movie-info">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="item-content-description top-down delay-4">
+                                        Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.
+                                    </div>
+                                    <div class="item-action top-down delay-6">
+                                        <a href="spidermannowayhome.html" class="btn btn-hover">
+                                            <i class="bx bxs-right-arrow"></i>
+                                            <span>Watch now</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="item-action top-down delay-6">
-                                <a href="thorlove&thunder.html" class="btn btn-hover">
-                                    <i class="bx bxs-right-arrow"></i>
-                                    <span>Watch now</span>
-                                </a>
-                            </div>
+                        </div>
+                        <!-- END SLIDE ITEM -->
+                    </div>
+                </div>
+                <!-- END HERO SLIDE -->
+       <!-- TOP MOVIES SLIDE -->
+       <div class="top-movies-slide">
+        <div class="owl-carousel" id="top-movies-slide">
+            <!-- MOVIE ITEM -->
+            <a class="movie-item" href="thorlove&thunder.html">
+                <img src="./images/movies/Thorloveandthunderposter.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Thorloveandthunder
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>PG-13</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1h 59mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>Blueprint</span>
+                        </div>
+                        <div class="movie-info">
+                            <span></span>
                         </div>
                     </div>
                 </div>
-                <!-- END SLIDE ITEM -->
-                <!-- SLIDE ITEM -->
-                <div class="hero-slide-item">
-                    <img src="./images/movies/black widow.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="hero-slide-item-content">
-                        <div class="item-content-wraper">
-                            <div class="item-content-title top-down">
-                                Black Widow
-                            </div>
-                            <div class="movie-infos top-down delay-2">
-                                <div class="movie-info">
-                                    <i class="bx bxs-star"></i>
-                                    <span>9.5</span>
-                                </div>
-                                <div class="movie-info">
-                                    <i class="bx bxs-time"></i>
-                                    <span>120 mins</span>
-                                </div>
-                                <div class="movie-info">
-                                    <span>HD</span>
-                                </div>
-                                
-                            </div>
-                            <div class="item-content-description top-down delay-4">
-                                Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.
-                            </div>
-                            <div class="item-action top-down delay-6">
-                                <a href="blackwidow.html" class="btn btn-hover">
-                                    <i class="bx bxs-right-arrow"></i>
-                                    <span>Watch now</span>
-                                </a>
-                            </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="Thorthedarkworld.html" class="movie-item">
+                <img src="./images/movies/Thor the darkworld.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Thor The Dark World
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>PG-13v</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>1h 52mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span></span>
                         </div>
                     </div>
                 </div>
-                <!-- END SLIDE ITEM -->
-                <!-- SLIDE ITEM -->
-                <div class="hero-slide-item">
-                    <img src="./images/movies/spiderman noway home.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="hero-slide-item-content">
-                        <div class="item-content-wraper">
-                            <div class="item-content-title top-down">
-                                Spiderman: No Way Home
-                            </div>
-                            <div class="movie-infos top-down delay-2">
-                                <div class="movie-info">
-                                    <i class="bx bxs-star"></i>
-                                    <span>9.5</span>
-                                </div>
-                                <div class="movie-info">
-                                    <i class="bx bxs-time"></i>
-                                    <span>120 mins</span>
-                                </div>
-                                <div class="movie-info">
-                                    <span>HD</span>
-                                </div>
-                                <div class="movie-info">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="item-content-description top-down delay-4">
-                                Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.
-                            </div>
-                            <div class="item-action top-down delay-6">
-                                <a href="spidermannowayhome.html" class="btn btn-hover">
-                                    <i class="bx bxs-right-arrow"></i>
-                                    <span>Watch now</span>
-                                </a>
-                            </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="Thorragnarok.html" class="movie-item">
+                <img src="./images/movies/thorrangnarok.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Thor Ragnarok
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>2h 11mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
                         </div>
                     </div>
                 </div>
-                <!-- END SLIDE ITEM -->
-            </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+           <a href="spidermanhomecoming.html" class="movie-item">
+                <img src="./images/movies/spidermanhomecoming.jpg" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Spiderman Homecoming
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>PG-13</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>2h 13mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="WandaVision.html" class="movie-item">
+                <img src="./images/series/wanda.png" alt="">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Wanda Vision
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="spidermanfarfromhome.html" class="movie-item">
+                <img src="./images/movies/spidermanfarfromhome.jpg" alt="Spider Man Far From Home">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Spider Man Far From Home
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>PG-13</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>2h 9mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
         </div>
-        <!-- END HERO SLIDE -->
-        <!-- TOP MOVIES SLIDE -->
-        <div class="top-movies-slide">
-            <div class="owl-carousel" id="top-movies-slide">
-                <!-- MOVIE ITEM -->
-                <a class="movie-item" href="thorlove&thunder.html">
-                    <img src="./images/movies/Thorloveandthunderposter.jpg" alt="">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Thorloveandthunder
+    </div>
+    <!-- END TOP MOVIES SLIDE -->
+</div>
+<!-- END HERO SECTION -->
+
+   <!-- LATEST MOVIES SECTION -->
+   <div class="section">
+    <div class="container">
+        <div class="section-header">
+            latest movies
+        </div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+            <!-- MOVIE ITEM -->
+            <a href="doctorstrange.html" class="movie-item">
+                <img src="./images/movies/DoctorStrange.jpg" alt="doctorstrange">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Doctor Strange
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
                         </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>PG-13</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>1h 59mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>Blueprint</span>
-                            </div>
-                            <div class="movie-info">
-                                <span></span>
-                            </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
                         </div>
                     </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="Thorthedarkworld.html" class="movie-item">
-                    <img src="./images/movies/Thor the darkworld.jpg" alt="">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Thor The Dark World
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="infinitywar.html" class="movie-item">
+                <img src="./images/movies/Avengersinfinitywar.jpg" alt="Avengersinfinitywar">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Avengers Infinity War
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
                         </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>PG-13v</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>1h 52mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span></span>
-                            </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
                         </div>
                     </div>
-                </a>
-                <!-- END MOVIE ITEM -->
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="GuardiansofTheGalaxy.html" class="movie-item">
+                <img src="./images/movies/gogalaxy.jpg" alt="gogalaxy">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Guardians of The Galaxy
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="CaptainAmericaCivilwar.html" class="movie-item">
+                <img src="./images/movies/cvilwar.jpg" alt="Civilwar">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Captain America Civil war
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="venom.html" class="movie-item">
+                <img src="./images/movies/venom.jpg" alt="venom">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Venom
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="TheamazingSpiderman2.html" class="movie-item">
+                <img src="./images/movies/TheAmazingSpiderman2.jpg" alt="TheAmazingSpiderman2">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        The Amazing Spiderman 2
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <a href="#" class="movie-item">
+                <img src="./images/movies/IronMan3.jpg" alt="ironman3">
+                <div class="movie-item-content">
+                    <div class="movie-item-title">
+                        Iron Man 3
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- END MOVIE ITEM -->
+        </div>
+    </div>
+</div>
+<!-- END LATEST MOVIES SECTION -->
+    <!-- LATEST SERIES SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                latest series
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
                 <!-- MOVIE ITEM -->
-                <a href="Thorragnarok.html" class="movie-item">
-                    <img src="./images/movies/thorrangnarok.jpg" alt="">
+                <a href="#" class="movie-item">
+                    <img src="./images/series/Moon knight.jpg" alt="">
                     <div class="movie-item-content">
                         <div class="movie-item-title">
-                            Thor Ragnarok
+                            Moon Knight
                         </div>
                         <div class="movie-infos">
                             <div class="movie-info">
@@ -225,7 +534,7 @@
                             </div>
                             <div class="movie-info">
                                 <i class="bx bxs-time"></i>
-                                <span>2h 11mins</span>
+                                <span>120 mins</span>
                             </div>
                             <div class="movie-info">
                                 <span>HD</span>
@@ -238,26 +547,54 @@
                 </a>
                 <!-- END MOVIE ITEM -->
                 <!-- MOVIE ITEM -->
-               <a href="spidermanhomecoming.html" class="movie-item">
-                    <img src="./images/movies/spidermanhomecoming.jpg" alt="">
+                <a href="#" class="movie-item">
+                    <img src="./images/series/Hawkeye.jpg" alt="">
                     <div class="movie-item-content">
                         <div class="movie-item-title">
-                            Spiderman Homecoming
+                            Hawkeye
                         </div>
                         <div class="movie-infos">
                             <div class="movie-info">
                                 <i class="bx bxs-star"></i>
-                                <span>PG-13</span>
+                                <span>9.5</span>
                             </div>
                             <div class="movie-info">
                                 <i class="bx bxs-time"></i>
-                                <span>2h 13mins</span>
+                                <span>120 mins</span>
                             </div>
                             <div class="movie-info">
                                 <span>HD</span>
                             </div>
                             <div class="movie-info">
-                                <span></span>
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+               
+                
+                <!-- MOVIE ITEM -->
+                <a href="Falcon&TheWinterSoldier.html" class="movie-item">
+                    <img src="./images/series/the-falcon.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Falcon And The Winter Soldier
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
                             </div>
                         </div>
                     </div>
@@ -289,239 +626,15 @@
                     </div>
                 </a>
                 <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="spidermanfarfromhome.html" class="movie-item">
-                    <img src="./images/movies/spidermanfarfromhome.jpg" alt="Spider Man Far From Home">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Spider Man Far From Home
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>PG-13</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>2h 9mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-            </div>
-        </div>
-        <!-- END TOP MOVIES SLIDE -->
-    </div>
-    <!-- END HERO SECTION -->
-
-    <!-- LATEST MOVIES SECTION -->
-    <div class="section">
-        <div class="container">
-            <div class="section-header">
-                latest movies
-            </div>
-            <div class="movies-slide carousel-nav-center owl-carousel">
-                <!-- MOVIE ITEM -->
-                <a href="doctorstrange.html" class="movie-item">
-                    <img src="./images/movies/DoctorStrange.jpg" alt="doctorstrange">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Doctor Strange
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="infinitywar.html" class="movie-item">
-                    <img src="./images/movies/Avengersinfinitywar.jpg" alt="Avengersinfinitywar">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Transformer
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="GuardiansofTheGalaxy.html" class="movie-item">
-                    <img src="./images/movies/gogalaxy.jpg" alt="gogalaxy">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Guardians of The Galaxy
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="CaptainAmericaCivilwar.html" class="movie-item">
-                    <img src="./images/movies/cvilwar.jpg" alt="Civilwar">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Captain America Civil war
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="venom.html" class="movie-item">
-                    <img src="./images/movies/venom.jpg" alt="venom">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Venom
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="TheamazingSpiderman2.html" class="movie-item">
-                    <img src="./images/movies/TheAmazingSpiderman2.jpg" alt="TheAmazingSpiderman2">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            The Amazing Spiderman 2
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
-                <!-- MOVIE ITEM -->
-                <a href="#" class="movie-item">
-                    <img src="./images/movies/IronMan3.jpg" alt="ironman3">
-                    <div class="movie-item-content">
-                        <div class="movie-item-title">
-                            Iron Man 3
-                        </div>
-                        <div class="movie-infos">
-                            <div class="movie-info">
-                                <i class="bx bxs-star"></i>
-                                <span>9.5</span>
-                            </div>
-                            <div class="movie-info">
-                                <i class="bx bxs-time"></i>
-                                <span>120 mins</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>HD</span>
-                            </div>
-                            <div class="movie-info">
-                                <span>16+</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <!-- END MOVIE ITEM -->
             </div>
         </div>
     </div>
-    <!-- END LATEST MOVIES SECTION -->
-
-    <!-- LATEST SERIES SECTION -->
-   
     <!-- END LATEST SERIES SECTION -->
 
   
     <div w3-include-html="footer.html"></div> 
-    
+    <script>includeHTML();</script>
+
     <!-- SCRIPT -->
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -530,7 +643,6 @@
     <!-- APP SCRIPT -->
     <script src="app.js"></script>
     <script src="search.js"></script>
-    <script>includeHTML();</script>
 
 </body>
 

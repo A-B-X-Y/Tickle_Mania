@@ -50,6 +50,17 @@ label{
     display: block;
     visibility: visible;
 }
+.dld{
+  background-color: rgb(107, 90, 170);
+ height: 2.5rem;
+ width: 5rem;
+ justify-content: center;
+ padding: 1rem;
+ border-radius: 3px;
+}
+.dld:hover{
+  background-color: rgb(107, 90, 120) ;
+}
 
 .section-container
 {

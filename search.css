@@ -10,17 +10,18 @@
 
 }
 .containerse{
-    width: 275px;
+    width: 250px;
 }
 .containerse form{
 
     width: 90%;
+    height: 35px;
     border: 2px solid #c0392b;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #fff;
+  
 
 }
 .containerse form input {
@@ -37,36 +38,34 @@
 .containerse form i{
     padding-left: 10px;
 }
-.menuinse{
-    display: block;
-    list-style-type: none;
-    margin-left: 10px;
-    
-}
-.submenuse {
-    display: none;
-}
 
 
-.nav-menu li:hover > .submenuse{
-    display: block;
+
+
+.submenuse{
     position: absolute;
+    right: 0;
     background:black;
     border: 1px solid #fff;
     width: 250px;
     height: 200px;
     overflow: hidden;
     overflow-y: scroll;
+    z-index: 10000;
+    display: none;
     
 
 }
-.nav-menu li:hover > .submenuse::-webkit-scrollbar{
+.submenuse a:hover{
+    color: #c0392b;
+}
+ .submenuse::-webkit-scrollbar{
     width: 1vw;
 }
-.nav-menu li:hover > .submenuse::-webkit-scrollbar-thumb{
+ .submenuse::-webkit-scrollbar-thumb{
     background-color: #7775;
 }
-.nav-menu li:hover > .submenuse::-webkit-scrollbar-track{
+ .submenuse::-webkit-scrollbar-track{
     background-color: black;
 }
 
@@ -76,36 +75,18 @@
 .semovie-item{
     display: flex;
     align-items: center;
+    cursor: pointer;
 
 }
 .semovie-item img{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 120px;
     object-fit: cover;
-}
-
-.menuin{
-    list-style: none;
-    display: block;
-    table-layout: auto;
-}
-.submenu {
-    display: none;
-
+    padding: 5px;
 }
 
 
-.nav-menu li:hover > .submenu{
-    display: block;
-    position: absolute;
-    background-color:#000000;
-    
-}
 
-.content-table{
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 1rem;
-    min-width: 300px;
-    font-weight: 500;
-}
+
+
+

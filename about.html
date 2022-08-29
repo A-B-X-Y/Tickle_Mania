@@ -28,7 +28,29 @@
 
 <body>
 
-    <div include-html="nav.html" id="header_file"></div>
+     <!-- NAV -->
+ <div class="nav-wrapper">
+    <div class="container">
+        <div class="nav">
+            <a href="index.html" class="logo">
+                <i class='bx bx-movie-play bx-tada main-color'></i>Tickle<span class="main-color">Mania</span>
+            </a> 
+
+    <div w3-include-html="nav.html"></div> 
+    
+    <div class="hamburger-menu" id="hamburger-menu">
+        <div class="hamburger"></div>
+    </div>
+
+
+    
+</div>
+</div>
+</div>
+<!--END NAV-->
+<!--SEARCH-->
+    <div w3-include-html="search.html"></div> 
+<!--END SEARCH-->
 
  <!--ABOUT US-->
     <div class="aboutback">
@@ -61,7 +83,8 @@
  <!--END ABOUT US-->
  
 
-    <div include-html="footer.html" id="footer_file"></div>
+ <div w3-include-html="search.html"></div> 
+    <script>includeHTML();</script>
     
     <!-- SCRIPT -->
     <!-- JQUERY -->
@@ -71,7 +94,6 @@
     <!-- APP SCRIPT -->
     <script src="app.js"></script>
     <script src="search.js"></script>
-    <script src="./includeHTML/js/include-html.min.js"></script>
 
 </body>
 

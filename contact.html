@@ -29,86 +29,29 @@
 
 <body>
 
-    <!-- NAV -->
-    <div class="nav-wrapper">
-        <div class="container">
-            <div class="nav">
-                <a href="#" class="logo">
-                    <i class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
-                </a>
-                <ul class="nav-menu" id="nav-menu">
-                    <li><div class="contse">
-                        <section class="containerse">
-                            <form>
-                               <i class="fas fa-search"></i>
-                               <input type="text" name="" id="search-item" placeholder="Search Movies" onkeyup="search()">
-                            </form>
-                        </section>
-                        
-                        </div>
-                        <div class="submenuse">
-                            <ul>
-                                <div class="menuinse">
-                        <li> 
-                            <ul>
-                                <div class="search-movies" id="search-movies">
-                                <a class="semovie-item"><img src="./images/black-banner.png "><div class="semovie-item-title">Black Panther</div></a><br>
+     <!-- NAV -->
+ <div class="nav-wrapper">
+    <div class="container">
+        <div class="nav">
+            <a href="index.html" class="logo">
+                <i class='bx bx-movie-play bx-tada main-color'></i>Tickle<span class="main-color">Mania</span>
+            </a> 
 
-                                <a class="semovie-item"><img src="./images/black-banner.png "><div class="semovie-item-title">Supergirl</div></a><br>
-
-                                <a class="semovie-item"><img src="./images/black-banner.png "><div class="semovie-item-title">Batman</div></a><br>
-
-                                </div>
-                        </ul>
-                   
-                 </li>
-                                </div>
-                        </ul>
-                    </div></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Genre</a></li>
-                    <li><a href="#">Movies</a>
-                    <div class="submenu">
-                        <ul>
-                            <div class="menuin">
-                    <li>  <table class="content-table">
-                        <thead>
-                            <tr>
-                                <th><a href="#">Pet name</a></th>
-                                <th><a href="#">Pet name</a></th>
-                                <th><a href="#">Pet name</a></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#">Black </a></td>
-                                <td><a href="#">Black </a></td>
-                                <td><a href="#">Black </a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">Daemon</a></td>
-                                <td><a href="#">Daemon</a></td>
-                                <td><a href="#">Daemon</a></td>
-                            </tr>
-                        </tbody>
-                    </table> </li>
-                            </div>
-                    </ul>
-                </div>
-                    </li>
-                    <li><a href="#">Series</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-                
-                <!-- MOBILE MENU TOGGLE -->
-                <div class="hamburger-menu" id="hamburger-menu">
-                    <div class="hamburger"></div>
-                </div>
-            </div>
-             </li>
-        </div>
+    <div w3-include-html="nav.html"></div> 
+    
+    <div class="hamburger-menu" id="hamburger-menu">
+        <div class="hamburger"></div>
     </div>
-    <!-- END NAV -->
+
+
+    
+</div>
+</div>
+</div>
+<!--END NAV-->
+<!--SEARCH-->
+    <div w3-include-html="search.html"></div> 
+<!--END SEARCH-->
 <!--CONTACT US-->
 <div class="contact">
 <form action="https://formspree.io/f/mlezkklj" method="POST">
@@ -148,63 +91,8 @@
 </div>
 <!--END CONTACT US-->
 
-    <!-- FOOTER SECTION -->
-    <footer class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-md-6 col-sm-12">
-                    <div class="content">
-                        <a href="#" class="logo">
-                            <i class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
-                        </a>
-                        <p>
-                            Flix is a website for your entertainment.Our main purpose is to provide free and quality entertainment for all.<br>
-                            Follow us:
-                        </p>
-                        <div class="social-list">
-                            <a href="#" class="social-item">
-                                <i class="bx bxl-facebook"></i>
-                            </a>
-                            <a href="#" class="social-item">
-                                <i class="bx bxl-twitter"></i>
-                            </a>
-                            <a href="#" class="social-item">
-                                <i class="bx bxl-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-8 col-md-6 col-sm-12">
-                    <div class="row">
-                        <div class="col-3 col-md-6 col-sm-6">
-                            <div class="content">
-                                <p><b>Flix</b></p>
-                                <ul class="footer-menu">
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">My profile</a></li>
-                                    <li><a href="#">Pricing plans</a></li>
-                                    <li><a href="#">Contacts</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="col-3 col-md-6 col-sm-6">
-                            <!--DOWNLOAD APP-->
-                            <!--END DOWNLOAD APP-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- END FOOTER SECTION -->
-
-    <!-- COPYRIGHT SECTION -->
-    <div class="copyright">
-        Copyright 2021 <a href="https://www.youtube.com/channel/UCnNgtK4tGlWcceXVzoyTg8Q" target="_blank">
-            Tuat Tran Anh</a>
-    </div>
-    <!-- END COPYRIGHT SECTION -->
+<div w3-include-html="footer.html"></div>  
+<script>includeHTML();</script>
 
     <!-- SCRIPT -->
     <!-- JQUERY -->

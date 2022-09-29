@@ -97,7 +97,7 @@ img {
 
 .logo {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .nav-menu {
@@ -114,7 +114,7 @@ img {
 
 .nav-menu a {
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .nav-menu a:hover {

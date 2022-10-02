@@ -533,7 +533,7 @@ footer .content {
     html {
         font-size: 12px;
     }
-   
+ 
 
     .container {
         padding: 0 15px;
@@ -655,6 +655,7 @@ footer .content {
     .scrollBox {
       flex-direction: column;
     }
- 
+   
     
   }
+

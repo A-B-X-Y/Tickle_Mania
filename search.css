@@ -9,6 +9,13 @@
 
 
 }
+#myMenuse{
+    position: fixed;
+    width: 250px;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 .containerse{
     width: 250px;
 }
@@ -43,7 +50,7 @@
 
 
 .submenuse{
-    position: absolute;
+    position: fixed;
     right: 0;
     background:black;
     border: 1px solid #fff;
@@ -59,6 +66,16 @@
 .submenuse a:hover{
     color: #c0392b;
 }
+ #myMenuse::-webkit-scrollbar{
+    width: 1vw;
+}
+ #myMenuse::-webkit-scrollbar-thumb{
+    background-color: #7775;
+}
+ #myMenuse::-webkit-scrollbar-track{
+    background-color: black;
+}
+
  .submenuse::-webkit-scrollbar{
     width: 1vw;
 }
@@ -83,6 +100,11 @@
     height: 120px;
     object-fit: cover;
     padding: 5px;
+}
+@media only screen and (max-width: 850px){
+    .submenuse::-webkit-scrollbar{
+        width:2vw ;
+    }
 }
 
 

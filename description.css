@@ -8,8 +8,8 @@ p .text {
   }
   .read-more-btn {
 
-    background-color: rgb(149, 170, 197);
-    color: rgb(53, 49, 49);
+    background-color: rgb(238, 23, 23);
+    color: rgb(255, 255, 255);
     border: none;
     outline: none;
     font-size: 15px;
@@ -51,7 +51,7 @@ label{
     visibility: visible;
 }
 .dld{
-  background-color: rgb(107, 90, 170);
+  background-color: rgb(158, 34, 34);
  height: 2.5rem;
  width: 5rem;
  justify-content: center;
@@ -59,7 +59,7 @@ label{
  border-radius: 3px;
 }
 .dld:hover{
-  background-color: rgb(107, 90, 120) ;
+  background-color: rgb(255, 0, 0) ;
 }
 
 .section-container

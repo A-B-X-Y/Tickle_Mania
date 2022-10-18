@@ -225,7 +225,11 @@ iframe{
     width: 80%;
     height: calc(.5625*80vw);
 }
-
+.adsterra{
+    height: 275px;
+    display: flex;
+    margin-left: 10px;
+}
 .hero-slide-item {
     padding-top: 40%;
     position: relative;
@@ -533,7 +537,9 @@ footer .content {
     html {
         font-size: 12px;
     }
- 
+    html::-webkit-scrollbar{
+        width: 2vw;
+    }
 
     .container {
         padding: 0 15px;

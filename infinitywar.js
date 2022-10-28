@@ -12,7 +12,7 @@ function ep1(){
 };
 function eph1(){
     var videoEls = document.getElementsByTagName("iframe");
-        videoEls[0].src = "https://dood.wf/e/lcflgtqgzquu2m6sy7yc6sfcuz44ism0";
+        videoEls[0].src = "https://dood.re/e/m1qk6pj9d0zricvvq3r4fwip77hwdnf0";
     var epEls = document.getElementById("eph1");
     epEls.className = "onpg";
 

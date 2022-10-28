@@ -6,7 +6,7 @@ function ep1(){
     var epEls = document.getElementById("ep1");
     epEls.className = "onpg";
 
-    var epar =["ep2","ep3","ep4","ep5","ep6","ep7","ep8","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep2","ep3","ep4","ep5","ep6","ep7","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -23,7 +23,7 @@ function ep2(){
     var epEls = document.getElementById("ep2");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -40,7 +40,7 @@ function ep3(){
     var epEls = document.getElementById("ep3");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep2","ep4","ep5","ep6","ep7","ep8","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep2","ep4","ep5","ep6","ep7","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -55,7 +55,7 @@ function ep4(){
     var epEls = document.getElementById("ep4");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep2","ep5","ep6","ep7","ep8","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep2","ep5","ep6","ep7","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -70,7 +70,7 @@ function ep5(){
     var epEls = document.getElementById("ep5");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep4","ep2","ep6","ep7","ep8","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep4","ep2","ep6","ep7","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -85,7 +85,7 @@ function ep6(){
     var epEls = document.getElementById("ep6");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep4","ep5","ep2","ep7","ep8","ep9",,"eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep4","ep5","ep2","ep7","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -100,7 +100,7 @@ function ep7(){
     var epEls = document.getElementById("ep7");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep4","ep5","ep6","ep2","ep8","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep4","ep5","ep6","ep2","ep8","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -115,7 +115,7 @@ function ep8(){
     var epEls = document.getElementById("ep8");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep2","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep2","ep9","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -125,12 +125,27 @@ function ep8(){
 function ep9(){
     var videoEls = document.getElementsByTagName("iframe");
     for (var i = 0; i < videoEls.length; i++) {
-        videoEls[i].src = "https://dood.wf/e/gpf3i1s0e9d5do8ow5423a5gz7en0ncy";
+        videoEls[i].src = "https://dood.re/e/bqyjiqh3pk8qcs6852ny0iizmvc8agfk";
     };
     var epEls = document.getElementById("ep9");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep2","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep2","ep10","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
+    for (var i = 0; i < epar.length; i++){
+        var alep = document.getElementById(epar[i]);
+        alep.className = "vbox";
+
+    }
+};
+function ep10(){
+    var videoEls = document.getElementsByTagName("iframe");
+    for (var i = 0; i < videoEls.length; i++) {
+        videoEls[i].src = "https://dood.re/e/ii56rkncgr5j1vbw7ehgmfm14dqn7l6x";
+    };
+    var epEls = document.getElementById("ep10");
+    epEls.className = "onpg";
+
+    var epar =["ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep2","ep9","eph1","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -147,7 +162,7 @@ function eph1(){
     var epEls = document.getElementById("eph1");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep2","ep3","ep4","ep5","ep6","ep7","ep8","ep9","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep2","ep3","ep4","ep5","ep6","ep7","ep8","ep9","ep10","eph2","eph3","eph4","eph5","eph6","eph7","eph8","eph9","eph10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -164,7 +179,7 @@ function eph2(){
     var epEls = document.getElementById("eph2");
     epEls.className = "onpg";
 
-    var epar =["ep1","ep2","ep3","ep4","ep5","ep6","ep7","ep8","ep9","eph1","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
+    var epar =["ep1","ep2","ep3","ep4","ep5","ep6","ep7","ep8","ep9","ep10","eph1","eph10","eph3","eph4","eph5","eph6","eph7","eph8","eph9"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -181,7 +196,7 @@ function eph3(){
     var epEls = document.getElementById("eph3");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph2","eph4","eph5","eph6","eph7","eph8","eph9","ep1","ep2","ep4","ep5","ep6","ep7","ep8","ep9","ep3"];
+    var epar =["eph1","eph2","eph4","eph5","eph6","eph7","eph8","eph9","eph10","ep1","ep2","ep4","ep5","ep6","ep7","ep8","ep9","ep3","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -196,7 +211,7 @@ function eph4(){
     var epEls = document.getElementById("eph4");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph3","eph2","eph5","eph6","eph7","eph8","eph9","ep1","ep3","ep2","ep5","ep6","ep7","ep8","ep9","ep4"];
+    var epar =["eph1","eph3","eph2","eph5","eph6","eph7","eph8","eph9","eph10","ep1","ep3","ep2","ep5","ep6","ep7","ep8","ep9","ep4","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -211,7 +226,7 @@ function eph5(){
     var epEls = document.getElementById("eph5");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph3","eph4","eph2","eph6","eph7","eph8","eph9","ep1","ep3","ep4","ep2","ep6","ep7","ep8","ep9","ep5"];
+    var epar =["eph1","eph3","eph4","eph2","eph6","eph7","eph8","eph9","eph10","ep1","ep3","ep4","ep2","ep6","ep7","ep8","ep9","ep5","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -226,7 +241,7 @@ function eph6(){
     var epEls = document.getElementById("eph6");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph3","eph4","eph5","eph2","eph7","eph8","eph9","ep1","ep3","ep4","ep5","ep2","ep7","ep8","ep9","ep6"];
+    var epar =["eph1","eph3","eph4","eph5","eph2","eph7","eph8","eph9","eph10","ep1","ep3","ep4","ep5","ep2","ep7","ep8","ep9","ep6","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -241,7 +256,7 @@ function eph7(){
     var epEls = document.getElementById("eph7");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph3","eph4","eph5","eph6","eph2","eph8","eph9","ep1","ep3","ep4","ep5","ep6","ep2","ep8","ep9","ep7"];
+    var epar =["eph1","eph3","eph4","eph5","eph6","eph2","eph8","eph9","eph10","ep1","ep3","ep4","ep5","ep6","ep2","ep8","ep9","ep7","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -256,7 +271,7 @@ function eph8(){
     var epEls = document.getElementById("eph8");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph3","eph4","eph5","eph6","eph7","eph2","eph9","ep1","ep3","ep4","ep5","ep6","ep7","ep2","ep9","ep8"];
+    var epar =["eph1","eph3","eph4","eph5","eph6","eph7","eph2","eph9","eph10","ep1","ep3","ep4","ep5","ep6","ep7","ep2","ep9","ep8","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";
@@ -266,12 +281,27 @@ function eph8(){
 function eph9(){
     var videoEls = document.getElementsByTagName("iframe");
     for (var i = 0; i < videoEls.length; i++) {
-        videoEls[i].src = "https://dood.wf/e/gpf3i1s0e9d5do8ow5423a5gz7en0ncy";
+        videoEls[i].src = "https://dood.re/e/unun5lt9l6bshbnrto09c2gv6ryl5955";
     };
     var epEls = document.getElementById("eph9");
     epEls.className = "onpg";
 
-    var epar =["eph1","eph3","eph4","eph5","eph6","eph7","eph8","eph2","ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep2","ep9"];
+    var epar =["eph1","eph3","eph4","eph5","eph6","eph7","eph8","eph2","eph10","ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep2","ep9","ep10"];
+    for (var i = 0; i < epar.length; i++){
+        var alep = document.getElementById(epar[i]);
+        alep.className = "vbox";
+
+    }
+};
+function eph10(){
+    var videoEls = document.getElementsByTagName("iframe");
+    for (var i = 0; i < videoEls.length; i++) {
+        videoEls[i].src = "https://dood.re/e/6c6vs7ra0kocsmpm8zaqra6w9gee2o09";
+    };
+    var epEls = document.getElementById("eph10");
+    epEls.className = "onpg";
+
+    var epar =["eph1","eph3","eph4","eph5","eph6","eph7","eph8","eph2","eph9","ep1","ep3","ep4","ep5","ep6","ep7","ep8","ep2","ep9","ep10"];
     for (var i = 0; i < epar.length; i++){
         var alep = document.getElementById(epar[i]);
         alep.className = "vbox";

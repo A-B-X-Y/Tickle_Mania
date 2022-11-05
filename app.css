@@ -227,8 +227,12 @@ iframe{
 }
 .adsterra{
     height: 275px;
+    width: 100%;
     display: flex;
-    margin-left: 10px;
+    margin: 10px;
+    margin-top:0px;
+    overflow-x:scroll;
+    overflow-y:scroll;
 }
 .hero-slide-item {
     padding-top: 40%;

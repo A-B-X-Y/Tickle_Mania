@@ -1,6 +1,6 @@
 function ep1(){
     var videoEls = document.getElementsByTagName("iframe");
-        videoEls[0].src = "https://dood.wf/e/mg2pdo0oycrhzbvc9fqkz8xjwfg17moo";
+        videoEls[0].src = "https://dood.re/e/e68s8o8xrquqjayube036cmcz4bvv8dx";
     var epEls = document.getElementById("ep1");
     epEls.className = "onpg";
 

@@ -226,13 +226,12 @@ iframe{
     height: calc(.5625*80vw);
 }
 .adsterra{
-    height: 275px;
-    width: 100%;
+    padding: 50px;
+    padding-top: 0px;
+    height: 350px;
     display: flex;
-    margin: 10px;
-    margin-top:0px;
-    overflow-x:scroll;
-    overflow-y:scroll;
+    margin-left: 10px;
+    overflow-y: scroll;
 }
 .hero-slide-item {
     padding-top: 40%;
@@ -599,6 +598,13 @@ footer .content {
         left: 0;
     }
   
+}
+@media only screen and (max-width: 850px){
+    .adsterra{
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
 }
 
 

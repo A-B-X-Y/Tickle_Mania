@@ -225,13 +225,6 @@ iframe{
     width: 80%;
     height: calc(.5625*80vw);
 }
-.adsterra{
-    padding: 50px;
-    padding-top: 0px;
-    height: 350px;
-    display: flex;
-    margin-left: 10px;
-}
 .hero-slide-item {
     padding-top: 40%;
     position: relative;
